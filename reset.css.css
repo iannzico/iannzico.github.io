@@ -1,0 +1,39 @@
+html, body {
+    height: 100%;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+  }
+  
+  :root {
+    --primary: #8257E5;
+    --primary-hover: #ab89fa;
+    --background: hsl(290, 94%, 31%);
+    --box-background: rgba(11, 243, 243, 0.658);
+    --text-color: #F4EDE8;
+    --green: #04D361;
+  }
+  
+  body {
+    background: var(--background);
+    color: var(--text-color);
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 0;
+  }
+  
+  body, input, button {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 16px;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
